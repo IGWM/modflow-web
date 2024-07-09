@@ -1,0 +1,15 @@
+name: modflow_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - flopy
+  - modflow6
+  - celery
+  - redis
+  - fastapi
+  - uvicorn
+  - pip
+  - pip:
+    - numpy==1.26.4
